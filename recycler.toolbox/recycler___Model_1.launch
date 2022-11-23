@@ -2,31 +2,30 @@
 <launchConfiguration type="org.lamport.tla.toolbox.tool.tlc.modelCheck">
     <stringAttribute key="configurationName" value="Model_1"/>
     <intAttribute key="distributedFPSetCount" value="0"/>
-    <stringAttribute key="distributedNetworkInterface" value="192.168.1.101"/>
+    <stringAttribute key="distributedNetworkInterface" value="192.168.1.107"/>
     <intAttribute key="distributedNodesCount" value="1"/>
     <stringAttribute key="distributedTLC" value="off"/>
-    <intAttribute key="fpIndex" value="129"/>
+    <intAttribute key="fpIndex" value="92"/>
     <intAttribute key="maxHeapSize" value="25"/>
     <stringAttribute key="modelBehaviorInit" value=""/>
     <stringAttribute key="modelBehaviorNext" value=""/>
     <stringAttribute key="modelBehaviorSpec" value="Spec"/>
     <intAttribute key="modelBehaviorSpecType" value="1"/>
-    <stringAttribute key="modelBehaviorVars" value="people, sender, receiver, acc, amount, pc"/>
+    <stringAttribute key="modelBehaviorVars" value="capacity, curr, bins, items, pc, item, count"/>
     <stringAttribute key="modelComments" value=""/>
     <booleanAttribute key="modelCorrectnessCheckDeadlock" value="true"/>
-    <listAttribute key="modelCorrectnessInvariants">
-        <listEntry value="1NoOverdrafts"/>
-    </listAttribute>
+    <listAttribute key="modelCorrectnessInvariants"/>
     <listAttribute key="modelCorrectnessProperties">
         <listEntry value="0Termination"/>
-        <listEntry value="1EventuallyConsistent"/>
     </listAttribute>
     <intAttribute key="modelEditorOpenTabs" value="8"/>
-    <stringAttribute key="modelExpressionEval" value="{x * 2: x \in 1..10}"/>
-    <listAttribute key="modelParameterConstants"/>
+    <stringAttribute key="modelExpressionEval" value=""/>
+    <listAttribute key="modelParameterConstants">
+        <listEntry value="defaultInitValue;;defaultInitValue;1;0"/>
+    </listAttribute>
     <intAttribute key="modelVersion" value="20191005"/>
     <intAttribute key="numberOfWorkers" value="8"/>
     <stringAttribute key="result.mail.address" value=""/>
-    <stringAttribute key="specName" value="wire"/>
+    <stringAttribute key="specName" value="recycler"/>
     <stringAttribute key="tlcResourcesProfile" value="local custom"/>
 </launchConfiguration>
